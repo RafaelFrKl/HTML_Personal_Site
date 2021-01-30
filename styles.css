@@ -1,0 +1,33 @@
+/*External CSS for modifyinhg all html pages*/
+
+/***Tag Selectors***/
+body{
+    background-image: linear-gradient(to top, #007adf 0%, #00ecbc 100%);
+}
+hr{
+    border-color: grey;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    width: 10%;
+    /*background-color: white;
+    border-style: none;
+    height: 2px;*/
+}
+h3:hover{
+    /*:hover is a psuedo-class*/
+    color: black;
+}
+
+
+/***Class Selectors***/
+/*Good for grouping certain elements, able to apply multiiple classes to 1 element*/
+.specialtext {
+    color: white;
+}
+
+/***ID Selectors***/
+/*IDs must be unique*/
+#heading{
+    color: white;
+}
